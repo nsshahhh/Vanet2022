@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Fri 17 Dec 2021 09:40:27 AM UTC by Eclipse SUMO netedit Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/veins/new.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/veins/new.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="cluster_682811505_708330868_8607276803_8607276804_8607276805_8607276806" type="static" programID="0" offset="0">
+        <phase duration="6" state="rGGgrrrGGr"/>
+        <phase duration="6" state="ryyyrrryyr"/>
+        <phase duration="30" state="Grrrrrrrrg"/>
+        <phase duration="30" state="yrrrrrrrry"/>
+        <phase duration="33" state="rrrrGGGrrr"/>
+        <phase duration="33" state="rrrryyyrrr"/>
+    </tlLogic>
+</additional>
